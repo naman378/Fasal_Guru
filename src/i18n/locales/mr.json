@@ -1,0 +1,149 @@
+{
+  "common": {
+    "appName": "फसलगुरु",
+    "taglineHindi": "फसल की हर बात, गुरु के साथ!",
+    "taglineEnglish": "प्रत्येक पिकाची बाब, गुरूंसोबत!",
+    "loading": "लोड होत आहे...",
+    "save": "जतन करा",
+    "cancel": "रद्द करा",
+    "delete": "हटवा",
+    "edit": "संपादित करा",
+    "submit": "सबमिट करा",
+    "search": "शोधा",
+    "back": "मागे",
+    "next": "पुढे",
+    "yes": "होय",
+    "no": "नाही",
+    "confirm": "पुष्टी करा",
+    "close": "बंद करा",
+    "download": "डाउनलोड करा",
+    "upload": "अपलोड करा",
+    "language": "भाषा"
+  },
+  "nav": {
+    "dashboard": "डॅशबोर्ड",
+    "cropDisease": "पीक रोग",
+    "soilAnalysis": "माती विश्लेषण",
+    "iotSensors": "IoT सेंसर",
+    "weather": "हवामान",
+    "voiceAssistant": "व्हॉइस असिस्टंट",
+    "mainModules": "मुख्य मॉड्यूल्स",
+    "more": "अधिक",
+    "profile": "प्रोफाइल",
+    "reports": "अहवाल",
+    "settings": "सेटिंग्ज",
+    "help": "मदत"
+  },
+  "dashboard": {
+    "welcome": "फसलगुरुमध्ये आपले स्वागत आहे",
+    "subtitle": "उत्तम पीक व्यवस्थापनासाठी तुमचा AI-संचालित शेती सहाय्यक",
+    "askVoice": "व्हॉइस असिस्टंटला विचारा",
+    "openModule": "मॉड्यूल उघडा",
+    "cropDiseaseTitle": "पीक रोग ओळख",
+    "cropDiseaseDesc": "रोग ओळख आणि उपचार शिफारसींसाठी पीक फोटो अपलोड करा",
+    "soilTitle": "माती विश्लेषण",
+    "soilDesc": "मातीचे आरोग्य, पोषक तत्वे विश्लेषण आणि खत शिफारसी मिळवा",
+    "iotTitle": "IoT सेंसर डेटा",
+    "iotDesc": "वास्तविक वेळेत पर्यावरणीय परिस्थिती आणि शेती पॅरामीटर्सचे निरीक्षण करा",
+    "weatherTitle": "हवामान अंदाज",
+    "weatherDesc": "7 दिवसांचा हवामान अंदाज आणि कृषी सल्ला",
+    "accuracy": "94% अचूकता",
+    "npkAnalysis": "NPK विश्लेषण",
+    "liveData": "लाइव्ह डेटा",
+    "forecast": "7-दिवस अंदाज"
+  },
+  "hero": {
+    "features": {
+      "cropDisease": "पीक रोग ओळख",
+      "soilAnalysis": "माती विश्लेषण",
+      "iotMonitoring": "IoT निरीक्षण",
+      "weatherForecast": "हवामान अंदाज",
+      "voiceAssistant": "व्हॉइस असिस्टंट"
+    }
+  },
+  "cropDisease": {
+    "title": "पीक रोग ओळख",
+    "uploadTitle": "पीक फोटो अपलोड करा",
+    "uploadDesc": "प्रभावित वनस्पतीचा स्पष्ट फोटो घ्या किंवा गॅलरीतून अपलोड करा",
+    "takePhoto": "फोटो घ्या",
+    "uploadImage": "फोटो अपलोड करा",
+    "analyzing": "पीक फोटोचे विश्लेषण होत आहे...",
+    "detected": "आढळले",
+    "confidence": "विश्वास पातळी",
+    "severity": "तीव्रता",
+    "treatment": "उपचार शिफारसी",
+    "downloadReport": "अहवाल डाउनलोड करा",
+    "newScan": "नवीन स्कॅन",
+    "recentScans": "अलीकडील रोग स्कॅन"
+  },
+  "soilAnalysis": {
+    "title": "माती आरोग्य विश्लेषण",
+    "uploadTitle": "माती नमुना फोटो अपलोड करा",
+    "uploadDesc": "माती नमुन्याचा स्पष्ट फोटो घ्या किंवा गॅलरीतून अपलोड करा",
+    "takePhoto": "फोटो घ्या",
+    "uploadImage": "फोटो अपलोड करा",
+    "analyzing": "माती रचनेचे विश्लेषण होत आहे...",
+    "soilTexture": "मातीचा पोत",
+    "phLevel": "pH पातळी",
+    "moisture": "आर्द्रता",
+    "recommendations": "शिफारसी",
+    "downloadHealthCard": "माती आरोग्य कार्ड डाउनलोड करा",
+    "newAnalysis": "नवीन विश्लेषण"
+  },
+  "iot": {
+    "title": "IoT सिस्टम स्थिती",
+    "sensorsOnline": "सेंसर ऑनलाइन",
+    "activeSensors": "सक्रिय सेंसर",
+    "alerts": "अलर्ट्स",
+    "temperature": "तापमान",
+    "humidity": "आर्द्रता",
+    "soilMoisture": "माती आर्द्रता"
+  },
+  "weather": {
+    "title": "हवामान अंदाज",
+    "currentWeather": "सध्याचे हवामान",
+    "humidity": "आर्द्रता",
+    "wind": "वारा",
+    "sevenDayForecast": "7-दिवसांचा हवामान अंदाज"
+  },
+  "voice": {
+    "title": "फसलगुरु व्हॉइस असिस्टंट",
+    "selectLanguage": "भाषा निवडा",
+    "tapToSpeak": "फसलगुरुशी बोलण्यासाठी टॅप करा",
+    "listening": "ऐकत आहे... आता बोला"
+  },
+  "settings": {
+    "title": "सेटिंग्ज",
+    "subtitle": "तुमचे खाते आणि प्राधान्ये व्यवस्थापित करा",
+    "account": "खाते",
+    "farm": "शेत",
+    "preferences": "प्राधान्ये",
+    "security": "सुरक्षा",
+    "profileInfo": "प्रोफाइल माहिती",
+    "name": "नाव",
+    "phone": "फोन",
+    "email": "ईमेल",
+    "location": "स्थान",
+    "saveProfile": "प्रोफाइल जतन करा"
+  },
+  "help": {
+    "title": "मदत केंद्र",
+    "subtitle": "उत्तरे शोधा आणि मदत मिळवा",
+    "faqs": "वारंवार विचारले जाणारे प्रश्न",
+    "contactSupport": "सहाय्याशी संपर्क साधा"
+  },
+  "footer": {
+    "poweredBy": "AI आणि ML APIs द्वारे संचालित",
+    "weatherApi": "हवामान API एकत्रीकरण",
+    "computerVision": "संगणक दृष्टी मॉडेल्स",
+    "iotAnalytics": "IoT डेटा विश्लेषण",
+    "builtWith": "React, TypeScript आणि Tailwind CSS सह तयार केले"
+  },
+  "moduleDesc": {
+    "cropDisease": "रोग ओळख आणि उपचार शिफारसींसाठी पीक फोटो अपलोड करा",
+    "soilAnalysis": "मातीच्या आरोग्याचे विश्लेषण करा आणि खत शिफारसी मिळवा",
+    "iotDashboard": "तुमच्या शेतातून रिअल-टाइम सेंसर डेटाचे निरीक्षण करा",
+    "weather": "अचूक हवामान अंदाज आणि कृषी सल्ला मिळवा",
+    "voiceAssistant": "व्हॉइस कमांड्स वापरून फसलगुरुशी संवाद साधा"
+  }
+}
