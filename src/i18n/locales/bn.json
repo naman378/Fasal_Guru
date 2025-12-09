@@ -1,0 +1,142 @@
+{
+  "common": {
+    "appName": "ফসলগুরু",
+    "taglineHindi": "फसल की हर बात, गुरु के साथ!",
+    "taglineEnglish": "প্রতিটি ফসলের ব্যাপার, গুরুর সাথে!",
+    "loading": "লোড হচ্ছে...",
+    "save": "সংরক্ষণ করুন",
+    "cancel": "বাতিল করুন",
+    "delete": "মুছুন",
+    "edit": "সম্পাদনা করুন",
+    "submit": "জমা দিন",
+    "search": "অনুসন্ধান করুন",
+    "back": "পিছনে",
+    "next": "পরবর্তী",
+    "yes": "হ্যাঁ",
+    "no": "না",
+    "confirm": "নিশ্চিত করুন",
+    "close": "বন্ধ করুন",
+    "download": "ডাউনলোড করুন",
+    "upload": "আপলোড করুন",
+    "language": "ভাষা"
+  },
+  "nav": {
+    "dashboard": "ড্যাশবোর্ড",
+    "cropDisease": "ফসল রোগ",
+    "soilAnalysis": "মাটি বিশ্লেষণ",
+    "iotSensors": "IoT সেন্সর",
+    "weather": "আবহাওয়া",
+    "voiceAssistant": "ভয়েস অ্যাসিস্ট্যান্ট",
+    "mainModules": "প্রধান মডিউল",
+    "more": "আরও",
+    "profile": "প্রোফাইল",
+    "reports": "রিপোর্ট",
+    "settings": "সেটিংস",
+    "help": "সাহায্য"
+  },
+  "dashboard": {
+    "welcome": "ফসলগুরুতে স্বাগতম",
+    "subtitle": "উন্নত ফসল ব্যবস্থাপনার জন্য আপনার AI-চালিত কৃষি সহকারী",
+    "askVoice": "ভয়েস অ্যাসিস্ট্যান্টকে জিজ্ঞাসা করুন",
+    "openModule": "মডিউল খুলুন",
+    "cropDiseaseTitle": "ফসল রোগ সনাক্তকরণ",
+    "cropDiseaseDesc": "রোগ সনাক্তকরণ এবং চিকিৎসা সুপারিশের জন্য ফসলের ছবি আপলোড করুন",
+    "soilTitle": "মাটি বিশ্লেষণ",
+    "soilDesc": "মাটির স্বাস্থ্য, পুষ্টি বিশ্লেষণ এবং সার সুপারিশ পান",
+    "iotTitle": "IoT সেন্সর ডেটা",
+    "iotDesc": "রিয়েল-টাইমে পরিবেশগত অবস্থা এবং খামার প্যারামিটার পর্যবেক্ষণ করুন",
+    "weatherTitle": "আবহাওয়ার পূর্বাভাস",
+    "weatherDesc": "৭ দিনের আবহাওয়া পূর্বাভাস এবং কৃষি পরামর্শ",
+    "accuracy": "৯৪% নির্ভুলতা",
+    "npkAnalysis": "NPK বিশ্লেষণ",
+    "liveData": "লাইভ ডেটা",
+    "forecast": "৭-দিনের পূর্বাভাস"
+  },
+  "hero": {
+    "features": {
+      "cropDisease": "ফসল রোগ সনাক্তকরণ",
+      "soilAnalysis": "মাটি বিশ্লেষণ",
+      "iotMonitoring": "IoT পর্যবেক্ষণ",
+      "weatherForecast": "আবহাওয়া পূর্বাভাস",
+      "voiceAssistant": "ভয়েস অ্যাসিস্ট্যান্ট"
+    }
+  },
+  "cropDisease": {
+    "title": "ফসল রোগ সনাক্তকরণ",
+    "uploadTitle": "ফসলের ছবি আপলোড করুন",
+    "uploadDesc": "আক্রান্ত গাছের স্পষ্ট ছবি তুলুন বা গ্যালারি থেকে আপলোড করুন",
+    "takePhoto": "ছবি তুলুন",
+    "uploadImage": "ছবি আপলোড করুন",
+    "analyzing": "ফসলের ছবি বিশ্লেষণ হচ্ছে...",
+    "detected": "সনাক্ত হয়েছে",
+    "confidence": "বিশ্বাসযোগ্যতা",
+    "severity": "তীব্রতা",
+    "treatment": "চিকিৎসা সুপারিশ",
+    "downloadReport": "রিপোর্ট ডাউনলোড করুন",
+    "newScan": "নতুন স্ক্যান"
+  },
+  "soilAnalysis": {
+    "title": "মাটি স্বাস্থ্য বিশ্লেষণ",
+    "uploadTitle": "মাটির নমুনা ছবি আপলোড করুন",
+    "analyzing": "মাটির গঠন বিশ্লেষণ হচ্ছে...",
+    "soilTexture": "মাটির গঠন",
+    "phLevel": "pH মাত্রা",
+    "moisture": "আর্দ্রতা",
+    "recommendations": "সুপারিশ",
+    "downloadHealthCard": "মাটি স্বাস্থ্য কার্ড ডাউনলোড করুন"
+  },
+  "iot": {
+    "title": "IoT সিস্টেম স্থিতি",
+    "sensorsOnline": "সেন্সর অনলাইন",
+    "temperature": "তাপমাত্রা",
+    "humidity": "আর্দ্রতা",
+    "soilMoisture": "মাটির আর্দ্রতা"
+  },
+  "weather": {
+    "title": "আবহাওয়া পূর্বাভাস",
+    "currentWeather": "বর্তমান আবহাওয়া",
+    "humidity": "আর্দ্রতা",
+    "wind": "বাতাস",
+    "sevenDayForecast": "৭-দিনের আবহাওয়া পূর্বাভাস"
+  },
+  "voice": {
+    "title": "ফসলগুরু ভয়েস অ্যাসিস্ট্যান্ট",
+    "selectLanguage": "ভাষা নির্বাচন করুন",
+    "tapToSpeak": "ফসলগুরুর সাথে কথা বলতে ট্যাপ করুন",
+    "listening": "শুনছি... এখন বলুন"
+  },
+  "settings": {
+    "title": "সেটিংস",
+    "subtitle": "আপনার অ্যাকাউন্ট এবং পছন্দ পরিচালনা করুন",
+    "account": "অ্যাকাউন্ট",
+    "farm": "খামার",
+    "preferences": "পছন্দ",
+    "security": "নিরাপত্তা",
+    "profileInfo": "প্রোফাইল তথ্য",
+    "name": "নাম",
+    "phone": "ফোন",
+    "email": "ইমেইল",
+    "location": "অবস্থান",
+    "saveProfile": "প্রোফাইল সংরক্ষণ করুন"
+  },
+  "help": {
+    "title": "সাহায্য কেন্দ্র",
+    "subtitle": "উত্তর খুঁজুন এবং সহায়তা পান",
+    "faqs": "সাধারণ প্রশ্নাবলী",
+    "contactSupport": "সাপোর্টে যোগাযোগ করুন"
+  },
+  "footer": {
+    "poweredBy": "AI এবং ML APIs দ্বারা চালিত",
+    "weatherApi": "আবহাওয়া API ইন্টিগ্রেশন",
+    "computerVision": "কম্পিউটার ভিশন মডেল",
+    "iotAnalytics": "IoT ডেটা বিশ্লেষণ",
+    "builtWith": "React, TypeScript এবং Tailwind CSS দিয়ে তৈরি"
+  },
+  "moduleDesc": {
+    "cropDisease": "রোগ সনাক্তকরণ এবং চিকিৎসা সুপারিশের জন্য ফসলের ছবি আপলোড করুন",
+    "soilAnalysis": "মাটির স্বাস্থ্য বিশ্লেষণ করুন এবং সার সুপারিশ পান",
+    "iotDashboard": "আপনার খামার থেকে রিয়েল-টাইম সেন্সর ডেটা পর্যবেক্ষণ করুন",
+    "weather": "সঠিক আবহাওয়া পূর্বাভাস এবং কৃষি পরামর্শ পান",
+    "voiceAssistant": "ভয়েস কমান্ড ব্যবহার করে ফসলগুরুর সাথে কথা বলুন"
+  }
+}
