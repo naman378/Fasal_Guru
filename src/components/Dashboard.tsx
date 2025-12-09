@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { 
@@ -13,6 +14,8 @@ import soilIcon from "@/assets/soil-icon.png";
 import iotIcon from "@/assets/iot-icon.png";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
+
   const modules = [
     {
       id: "crop-disease",
@@ -21,7 +24,8 @@ const Dashboard = () => {
       icon: <Camera className="h-8 w-8" />,
       bgImage: cropIcon,
       color: "success",
-      stats: "94% Accuracy"
+      stats: "94% Accuracy",
+      to: "/crop-disease"
     },
     {
       id: "soil-analysis", 
@@ -30,7 +34,8 @@ const Dashboard = () => {
       icon: <TestTube className="h-8 w-8" />,
       bgImage: soilIcon,
       color: "warning",
-      stats: "NPK Analysis"
+      stats: "NPK Analysis",
+      to: "/soil-analysis"
     },
     {
       id: "iot-dashboard",
@@ -39,7 +44,8 @@ const Dashboard = () => {
       icon: <Activity className="h-8 w-8" />,
       bgImage: iotIcon,
       color: "primary",
-      stats: "Live Data"
+      stats: "Live Data",
+      to: "/iot-dashboard"
     },
     {
       id: "weather",
@@ -47,10 +53,10 @@ const Dashboard = () => {
       description: "7-day weather predictions and agricultural advisories",
       icon: <Cloud className="h-8 w-8" />,
       color: "secondary",
-      stats: "7-Day Forecast"
+      stats: "7-Day Forecast",
+      to: "/weather"
     }
   ];
-
 
   return (
     <div className="space-y-6">
@@ -59,7 +65,11 @@ const Dashboard = () => {
         <div className="relative z-10">
           <h2 className="text-2xl font-bold mb-2">Welcome to FasalGuru</h2>
           <p className="text-white/90 mb-4">Your AI-powered farming assistant for better crop management</p>
-          <Button variant="secondary" className="bg-white text-primary hover:bg-white/90">
+          <Button 
+            variant="secondary" 
+            className="bg-white text-primary hover:bg-white/90"
+            onClick={() => navigate("/voice-assistant")}
+          >
             <Mic className="h-4 w-4 mr-2" />
             Ask Voice Assistant
           </Button>
@@ -71,7 +81,11 @@ const Dashboard = () => {
       {/* Main Modules */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
         {modules.map((module) => (
-          <Card key={module.id} className="group hover:shadow-strong transition-all duration-300 cursor-pointer bg-gradient-card border-0 overflow-hidden">
+          <Card 
+            key={module.id} 
+            className="group hover:shadow-strong transition-all duration-300 cursor-pointer bg-gradient-card border-0 overflow-hidden"
+            onClick={() => navigate(module.to)}
+          >
             <CardHeader className="pb-3">
               <div className="flex items-center justify-between">
                 <div className={`p-3 rounded-lg bg-${module.color}/10`}>
@@ -91,7 +105,14 @@ const Dashboard = () => {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <Button className="w-full group-hover:bg-primary-hover transition-colors" variant="default">
+              <Button 
+                className="w-full group-hover:bg-primary-hover transition-colors" 
+                variant="default"
+                onClick={(e) => {
+                  e.stopPropagation(); // Prevent double navigation from card click
+                  navigate(module.to);
+                }}
+              >
                 Open Module
                 <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -99,7 +120,6 @@ const Dashboard = () => {
           </Card>
         ))}
       </div>
-
     </div>
   );
 };
